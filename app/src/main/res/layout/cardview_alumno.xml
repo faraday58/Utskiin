@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/crvAlumno"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="@dimen/dim_radio_cardview">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/perfil"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_txtv_nombre"
+            android:textSize="@dimen/dim_nombre_text"
+            />
+        <TextView
+            android:id="@+id/txtvGrupo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_txtv_grupo"
+            android:textSize="@dimen/dim_nombre_text"/>
+        <TextView
+            android:id="@+id/txtvEquipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_txtv_equipo"
+            android:textSize="@dimen/dim_nombre_text"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
